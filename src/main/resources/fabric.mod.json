@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "waning_bloom",
+	"version": "${version}",
+	"name": "The Waning Bloom",
+	"description": "The Pale Garden, blooming in its true glory.",
+	"authors": [
+		"Echo"
+	],
+	"contact": {
+		"discord": "@blightedheart",
+		"sources": "https://github.com/NeutronForge/",
+		"modrinth": "https://modrinth.com/mod/",
+		"curseforge": "https://www.curseforge.com/minecraft/mc-mods/"
+	},
+	"license": "MIT",
+	"icon": "assets/waning_bloom/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.echo.waning_bloom.TheWaningBloom"
+		],
+		"client": [
+			"net.echo.waning_bloom.TheWaningBloomClient"
+		],
+		"fabric-datagen": [
+			"net.echo.waning_bloom.TheWaningBloomDataGenerator"
+		]
+	},
+	"mixins": [
+		"waning_bloom.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

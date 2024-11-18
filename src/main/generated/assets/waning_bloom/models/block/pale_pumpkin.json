@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "waning_bloom:block/pale_pumpkin_top",
+    "side": "waning_bloom:block/pale_pumpkin_side"
+  }
+}
