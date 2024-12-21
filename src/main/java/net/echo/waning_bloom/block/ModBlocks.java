@@ -2,10 +2,12 @@ package net.echo.waning_bloom.block;
 
 import net.echo.waning_bloom.TheWaningBloom;
 import net.echo.waning_bloom.block.custom.CarvedPalePumpkinBlock;
+import net.echo.waning_bloom.block.custom.DormantCreakingHeartBlock;
 import net.echo.waning_bloom.block.custom.PalePumpkinBlock;
 import net.echo.waning_bloom.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
@@ -21,6 +23,11 @@ import net.minecraft.util.Pair;
 import java.util.function.Function;
 
 public class ModBlocks {
+
+    public static final Block DORMANT_CREAKING_HEART = registerBlockWithItem(
+            "dormant_creaking_heart",
+            DormantCreakingHeartBlock::new,
+            AbstractBlock.Settings.create().mapColor(MapColor.ORANGE).instrument(NoteBlockInstrument.BASEDRUM).strength(8.0F).sounds(BlockSoundGroup.CREAKING_HEART)).getLeft();
 
 
     public static final Block PALE_PUMPKIN = registerBlockWithItem("pale_pumpkin", PalePumpkinBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_GRAY).instrument(NoteBlockInstrument.DIDGERIDOO).strength(1.0F).sounds(BlockSoundGroup.WOOD).pistonBehavior(PistonBehavior.DESTROY)).getLeft();

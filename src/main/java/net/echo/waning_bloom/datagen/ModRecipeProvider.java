@@ -11,6 +11,7 @@ import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.data.recipe.StonecuttingRecipeJsonBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.predicate.item.ItemPredicate;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -67,6 +68,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("A")
                         .pattern("B")
                         .criterion("has_carved_pale_pumpkin", this.conditionsFromItem(ModBlocks.CARVED_PALE_PUMPKIN))
+                        .offerTo(this.exporter);
+
+
+                this.createShaped(RecipeCategory.DECORATIONS, ModBlocks.DORMANT_CREAKING_HEART)
+                        .input('A', Blocks.CREAKING_HEART)
+                        .input('B', Items.CLOSED_EYEBLOSSOM)
+                        .pattern(" B ")
+                        .pattern("BAB")
+                        .pattern(" B ")
+                        .criterion("has_creaking_heart", this.conditionsFromItem(Blocks.CREAKING_HEART))
                         .offerTo(this.exporter);
 
 

@@ -1,4 +1,5 @@
 // 1.21.4	-999999999-01-01T00:00:00	The Waning Bloom/Block Loot Tables
 f4a146c4221476357f1a520a6274ae6dc34e8773 data/waning_bloom/loot_table/blocks/carved_pale_pumpkin.json
+b2467d8849008333c50a5d3bb486795d9114da76 data/waning_bloom/loot_table/blocks/dormant_creaking_heart.json
 6a92c4add0e1072bbb0cdcb8864143fa3f028695 data/waning_bloom/loot_table/blocks/pale_jack_o_lantern.json
 a676d25e3b1c6fe5681254b192b01e7f3ec8b16f data/waning_bloom/loot_table/blocks/pale_pumpkin.json

@@ -16,6 +16,8 @@ public class ModLanguageProvider extends FabricLanguageProvider {
     public void generateTranslations(RegistryWrapper.WrapperLookup wrapperLookup, TranslationBuilder translationBuilder) {
 
 
+        translationBuilder.add(ModBlocks.DORMANT_CREAKING_HEART, "Dormant Creaking Heart");
+
         translationBuilder.add(ModBlocks.PALE_PUMPKIN, "Pale Pumpkin");
         translationBuilder.add(ModBlocks.CARVED_PALE_PUMPKIN, "Carved Pale Pumpkin");
         translationBuilder.add(ModBlocks.PALE_JACK_O_LANTERN, "Pale Jack o'Lantern");

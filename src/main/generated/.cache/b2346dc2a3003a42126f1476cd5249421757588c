@@ -1,3 +1,5 @@
 // 1.21.4	-999999999-01-01T00:00:00	The Waning Bloom/
 5908a37e6a0715f59e97e48ea6972f1ce7913ce8 data/waning_bloom/advancement/recipes/building_blocks/pale_jack_o_lantern.json
+0e7d0d5a8bd8bfba864e62d2cd70a94d65ce1d74 data/waning_bloom/advancement/recipes/decorations/dormant_creaking_heart.json
+e0988fbbba6fc3dcf6470007d4ca1d167681b795 data/waning_bloom/recipe/dormant_creaking_heart.json
 04708f5c0cd1e7a4af8a0ebd395ad181db6b2c33 data/waning_bloom/recipe/pale_jack_o_lantern.json

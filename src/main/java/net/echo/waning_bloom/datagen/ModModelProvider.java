@@ -7,6 +7,7 @@ import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.TextureMap;
 import net.minecraft.client.data.TexturedModel;
+import net.minecraft.item.Item;
 
 
 public class ModModelProvider extends FabricModelProvider {
@@ -22,8 +23,6 @@ public class ModModelProvider extends FabricModelProvider {
 
 
 
-
-
         blockStateModelGenerator.registerSingleton(ModBlocks.PALE_PUMPKIN, TexturedModel.CUBE_COLUMN);
         TextureMap palePumpkinTextureMap = TextureMap.sideEnd(ModBlocks.PALE_PUMPKIN);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.CARVED_PALE_PUMPKIN, palePumpkinTextureMap);
@@ -35,6 +34,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
+
 
     }
 

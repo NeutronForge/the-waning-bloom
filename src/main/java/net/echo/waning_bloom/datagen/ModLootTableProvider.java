@@ -15,6 +15,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
 
+        this.addDrop(ModBlocks.DORMANT_CREAKING_HEART);
+
         this.addDrop(ModBlocks.PALE_PUMPKIN);
         this.addDrop(ModBlocks.CARVED_PALE_PUMPKIN);
         this.addDrop(ModBlocks.PALE_JACK_O_LANTERN);

@@ -17,9 +17,15 @@ import java.util.function.Function;
 public class ModItems {
 
 
+
     public static void registerNaturalToVanillaItemGroups() {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(content -> {
+
+
+
+            content.addAfter(Blocks.SHROOMLIGHT, ModBlocks.DORMANT_CREAKING_HEART);
+
             content.addAfter(Blocks.JACK_O_LANTERN, ModBlocks.PALE_PUMPKIN);
             content.addAfter(ModBlocks.PALE_PUMPKIN, ModBlocks.CARVED_PALE_PUMPKIN);
             content.addAfter(ModBlocks.CARVED_PALE_PUMPKIN, ModBlocks.PALE_JACK_O_LANTERN);
