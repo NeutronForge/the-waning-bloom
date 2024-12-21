@@ -9,8 +9,8 @@
 	],
 	"contact": {
 		"discord": "@blightedheart",
-		"sources": "https://github.com/NeutronForge/",
-		"modrinth": "https://modrinth.com/mod/",
+		"sources": "https://github.com/NeutronForge/the-waning-bloom",
+		"modrinth": "https://modrinth.com/mod/the-waning-bloom",
 		"curseforge": "https://www.curseforge.com/minecraft/mc-mods/"
 	},
 	"license": "MIT",
@@ -32,7 +32,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21.3",
+		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
